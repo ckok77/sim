@@ -1,5 +1,0 @@
-{
-  "name": "air",
-  "version-string": "0.1",
-  "dependencies": [ "spdlog", "sqlite-orm" ]
-}

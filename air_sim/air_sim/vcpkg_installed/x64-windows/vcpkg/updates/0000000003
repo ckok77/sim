@@ -1,9 +1,0 @@
-Package: sqlite-orm
-Version: 1.7.1
-Depends: sqlite3, vcpkg-cmake, vcpkg-cmake-config
-Architecture: x64-windows
-Multi-Arch: same
-Abi: a61a29db27637fc647fa9a3b4aeeb1bed984317b87bae9db203dbde70d22d924
-Description: SQLite ORM light header only library for modern C++
-Type: Port
-Status: install ok installed
