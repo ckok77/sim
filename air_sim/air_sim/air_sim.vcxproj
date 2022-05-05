@@ -93,6 +93,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -109,6 +110,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -125,6 +127,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,6 +144,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,9 +155,58 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="air_sim.cpp" />
+    <ClCompile Include="components\s_brakepipe.cpp" />
+    <ClCompile Include="components\s_brakevalve.cpp" />
+    <ClCompile Include="components\s_compressor.cpp" />
+    <ClCompile Include="components\s_fluid.cpp" />
+    <ClCompile Include="components\s_footpump.cpp" />
+    <ClCompile Include="components\s_gasjar.cpp" />
+    <ClCompile Include="components\s_mainjar.cpp" />
+    <ClCompile Include="components\s_mainpipe.cpp" />
+    <ClCompile Include="components\s_parking.cpp" />
+    <ClCompile Include="components\s_trainpipe.cpp" />
+    <ClCompile Include="components\s_unit.cpp" />
+    <ClCompile Include="components\s_unitick.cpp" />
+    <ClCompile Include="components\s_units.cpp" />
+    <ClCompile Include="components\u_cliper.cpp" />
+    <ClCompile Include="components\u_tick_c.cpp" />
+    <ClCompile Include="components\u_tick_f.cpp" />
+    <ClCompile Include="s_table.cpp" />
+    <ClCompile Include="u_base.cpp" />
+    <ClCompile Include="u_db.cpp" />
+    <ClCompile Include="u_ptr.cpp" />
+    <ClCompile Include="u_sqlite.cpp" />
+    <ClCompile Include="u_watch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="vcpkg.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="components\public_h.h" />
+    <ClInclude Include="u_const.h" />
+    <ClInclude Include="components\s_brakepipe.h" />
+    <ClInclude Include="components\s_brakevalve.h" />
+    <ClInclude Include="components\s_component.h" />
+    <ClInclude Include="components\s_compressor.h" />
+    <ClInclude Include="components\s_fluid.h" />
+    <ClInclude Include="components\s_footpump.h" />
+    <ClInclude Include="components\s_gasjar.h" />
+    <ClInclude Include="components\s_mainjar.h" />
+    <ClInclude Include="components\s_mainpipe.h" />
+    <ClInclude Include="components\s_parking.h" />
+    <ClInclude Include="components\s_trainpipe.h" />
+    <ClInclude Include="components\s_unit.h" />
+    <ClInclude Include="components\s_unitick.h" />
+    <ClInclude Include="components\s_units.h" />
+    <ClInclude Include="components\u_cliper.h" />
+    <ClInclude Include="components\u_tick_c.h" />
+    <ClInclude Include="components\u_tick_f.h" />
+    <ClInclude Include="s_table.h" />
+    <ClInclude Include="u_base.h" />
+    <ClInclude Include="u_db.h" />
+    <ClInclude Include="u_ptr.h" />
+    <ClInclude Include="u_sqlite.h" />
+    <ClInclude Include="u_watch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

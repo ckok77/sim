@@ -13,13 +13,168 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{bf790a6a-67c5-46d7-8867-75f869535593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{2071297b-961e-4095-8814-6553b1230618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="const">
+      <UniqueIdentifier>{4e88f095-0266-4c45-a9c4-be423c36c78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{7496e80a-b715-4da5-b671-7123237bb673}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="air_sim.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="u_base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="u_ptr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="u_watch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="s_table.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="u_sqlite.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="u_db.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_brakepipe.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_brakevalve.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_compressor.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_fluid.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_footpump.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_gasjar.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_mainjar.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_mainpipe.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_parking.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_trainpipe.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_unit.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_unitick.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\s_units.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\u_cliper.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\u_tick_c.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
+    <ClCompile Include="components\u_tick_f.cpp">
+      <Filter>components</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="vcpkg.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="u_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="u_ptr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="u_const.h">
+      <Filter>const</Filter>
+    </ClInclude>
+    <ClInclude Include="u_watch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="s_table.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="u_sqlite.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="u_db.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_brakepipe.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_brakevalve.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_component.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_compressor.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_fluid.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_footpump.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_gasjar.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_mainjar.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_mainpipe.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_parking.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_trainpipe.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_unit.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_unitick.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\s_units.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\u_cliper.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\u_tick_c.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\u_tick_f.h">
+      <Filter>components</Filter>
+    </ClInclude>
+    <ClInclude Include="components\public_h.h">
+      <Filter>components</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
