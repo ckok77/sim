@@ -1,0 +1,7 @@
+Package: vcpkg-cmake
+Version: 2022-04-21
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 67b1c3d6498e9b6aa220c5dd44c87ff6eb1d797826a9f72d35838b91b8a7f75d
+Type: Port
+Status: install ok half-installed
